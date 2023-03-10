@@ -3,7 +3,7 @@ kind: ReplicaSet
 metadata:
   labels : 
     app: employees
-  name: app_repicaset
+  name: app-repicaset
   namespace:  webapplication
 spec:
   replicas: 3

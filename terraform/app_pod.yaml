@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   labels:
     app: employees
-  name: app_pod
+  name: app-pod
   namespace:  webapplication
 spec:
   containers:
