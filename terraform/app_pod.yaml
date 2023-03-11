@@ -14,10 +14,10 @@ spec:
       protocol: TCP
     env:
     - name: DBHOST
-      value : 10.244.0.3
+      value : "10.244.0.3"
     - name: DBUSER
-      value : root
+      value : "root"
     - name: DBPWD
-      value : prince
+      value : "prince"
     - name: DBPORT
-      value : 3306
+      value : "3306"
