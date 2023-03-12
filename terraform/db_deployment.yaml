@@ -23,4 +23,4 @@ spec:
           value : prince
         ports: 
         - containerPort: 3306
-          protocol: TC
+          protocol: TCP
