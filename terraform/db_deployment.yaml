@@ -2,14 +2,14 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels :
-    app: mysql
+    app: sql
   name: mysql
   namespace: webapplication
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: sql
+      app: mysql
   template:
     metadata:
       labels:
