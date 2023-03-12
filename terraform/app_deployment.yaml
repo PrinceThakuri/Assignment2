@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: app-deployment
   labels : 
-    app: employees
+    app: employ
   namespace:  webapplication
 spec:
   replicas: 1
